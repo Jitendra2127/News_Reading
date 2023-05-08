@@ -93,7 +93,7 @@ const News=(props)=>{
     return (
       <>
         <div className="container my-3">
-          <h1 className="text-center " style={{marginTop:"90px"}}>NewsMonkey-Top</h1>
+          <h1 className="text-center " style={{marginTop:"90px"}}>NewsMonkey-Top News</h1>
           {loading&& <Spiner/>}
           <div className="row">
             {!loading&& articles.map((element) => {
